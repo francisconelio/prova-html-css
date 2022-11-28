@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Imóveis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+     
+</head>
+    
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Orçamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabalhe conosco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url(https://media.istockphoto.com/id/1145450965/pt/foto/santorini-island-greece.jpg?s=612x612&w=0&k=20&c=JANqdjg59Bm52-UXtpvaacn1C8wMad8ZM0r4jCQmxrE=);
+        height: 400px;
+        margin-top: 58px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.008);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Front End</h1>
+            <h4 class="mb-3">Imóveis</h4>
+            <a class="btn btn-outline-light btn-lg" href="./formulario.html" role="button" target="_blank">Log-in</a>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+ 
+</header><br><br>
+<body>
+    <main>
+     
+        <fieldset>
+      <!-- Nav pills -->
+<ul class="nav nav-pills" >
+    
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="pill" href="#menu" >Comprar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Alugar</a>
+    </li>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" href="#menu2">Vender</a>
+  </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Imóveis Novos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#menu4">Best Friday</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#menu5">Descobrir</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#menu6">Construir</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#menu5">Financiamento</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#menu8">Opções</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Reformar</a></li>
+          <li><a class="dropdown-item" href="#">Construir</a></li>
+          <li><a class="dropdown-item" href="#">Decorar</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#menu5">Centro de Ajuda</a>
+      </li>
+      
+    <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Procurar">
+        <button class="btn btn-primary" type="button">Procurar</button>
+      </form>
+      
+  </ul>
+ 
+  <!-- Tab panes -->
+  <div class="tab-content">
+    
+    <div class="tab-pane container active" id="menu"> 
+      <p>Imóvel Novo ou Usado:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Novo</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Usado</label><br>
+  
+</form><br>
+<p>Quantos quartos:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">1</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">2</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">3</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">4 ou mais</label><br>
+</form><br>
+<p>Quantos banheiros:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">1</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">2</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">3</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">4 ou mais</label><br>
+</form><br>
+<p>Piscina:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Acessibilidade:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Smart House:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Quantos m<sup>2</sup>:</p>
+<form>
+    <input type="text" id="fname" name="fname" placeholder="Ex: 75">m<sup>2</sup><br>
+  
+</form><br>
+<p>Valor Médio:</p>
+<form>
+    <R1><input type="text" id="fname" name="fname" placeholder="Ex:R$ 500.000"></R1><br>
+  
+</form><br>
+<button id="enviar" type="submit" class="btn btn-primary mt-3">Enviar</button>
+    </div>
+    <div class="tab-pane container fade" id="menu1">
+      <p>Imóvel Novo ou Usado:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Novo</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Usado</label><br>
+  
+</form><br>
+<p>Quantos quartos:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">1</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">2</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">3</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">4 ou mais</label><br>
+</form><br>
+<p>Quantos banheiros:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">1</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">2</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">3</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">4 ou mais</label><br>
+</form><br>
+<p>Piscina:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Acessibilidade:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Smart House:</p>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Sim</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Não</label><br>
+  
+</form><br>
+<p>Quantos m<sup>2</sup>:</p>
+<form>
+    <input type="text" id="fname" name="fname" placeholder="Ex: 75">m<sup>2</sup><br>
+  
+</form><br>
+<p>Valor do aluguel:</p>
+<form>
+    <R1><input type="text" id="fname" name="fname" placeholder="Ex:R$ 1000,00"></R1><br>
+  
+</form><br>
+<p>Valor do caução:</p>
+<form>
+    <R1><input type="text" id="fname" name="fname" placeholder="Ex:R$ 500,00"></R1><br>
+  
+</form><br>
+
+<button id="enviar" type="submit" class="btn btn-primary mt-3">Enviar</button>
+    </div>
+    <div class="tab-pane container fade" id="menu2">
+      <textarea name="message" rows="12" cols="70">
+        Descreva o ímovel que deseja vender. Ex: quantidade de cômodos, área, bairro, garagem, pisicina, sala americana, banheiros, sótão, cozinha, valor esperado, entre outros...
+        </textarea>
+        <button id="enviar" type="submit" class="btn btn-primary mt-3">Enviar</button>
+  </div>
+  <div class="tab-pane container fade" id="menu3"></div>
+</div>
+<div class="tab-pane container fade" id="menu4"></div>
+</div>
+<div class="tab-pane container fade" id="menu5">
+  <h2>Agendamento</h2>
+
+<p>Fale com um dos nossos representantes. Veja condições de promoções, financiamento e demais informações.</p>
+
+<form action="/action_page.php">
+  <label for="bdaymonth">Data de Agendamento:</label>
+  <input type="month" id="bdaymonth" name="bdaymonth"><br>
+  <button id="enviar" type="submit" class="btn btn-primary mt-3">Enviar</button>
+</div>
+<div class="tab-pane container fade" id="menu6">
+  <form action="/action_page.php">
+    <label for="quantity">Quantidade de quartos:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="5 ou mais"><br><br>
+    <label for="quantity">Quantidade de banheiros:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="5 ou mais"><br><br>
+    <p>Quantos m<sup>2</sup>:</p>
+<form>
+    <input type="text" id="fname" name="fname" placeholder="Ex: 75">m<sup>2</sup><br><br>
+</form>
+    <p>Orçamento esperado:</p>
+    <form>
+    <input type="text" id="fname" name="fname" placeholder="Ex: R$ 500.000,00"><br>
+    </form><br>
+
+    <button id="enviar" type="submit" class="btn btn-primary mt-3">Enviar</button>
+
+  </form>
+</div>
+</div>
+    </main>
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div  class="carousel-item active">
+    <center><img   src="projetos-de-casas.jpg" alt="Los Angeles" class="d-block" style="width:800px" ></center>
+      <div class="carousel-caption">
+        <h3>Aldeota</h3>
+        <p color="black">3 quartos, 2 suítes, 1 sala americana, 75 m<sup>2</sup>, varanda, cozinha em L, terraço</p>
+      </div>
+    </div>
+    <div  class="carousel-item">
+    <center><img  src="modernacasa.jpg" alt="Chicago" class="d-block" style="width:800px" ></center>
+      <div class="carousel-caption">
+        <h3>Meireles</h3>
+        <p>3 quartos, 2 suítes, 1 sala americana, 75 m<sup>2</sup>, varanda, cozinha em L, terraço</p>
+      </div> 
+    </div>
+    <div  class="carousel-item">
+      <center><img  src="piscinacasa.jpg" alt="New York" class="d-block" style="width:800px"></center>
+      <div class="carousel-caption">
+        <h3>Papicu</h3>
+        <p>3 quartos, 2 suítes, 1 sala americana, 75 m<sup>2</sup>, varanda, cozinha em L, terraço</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid mt-3">
+  
+</div>
+   
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Entre em contato conosco pelas nossas redes sociais:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Front End imóveis
+          </h6>
+          <p>
+            Busca vender, comprar, alugar, reformar ou tirar qualquer dúvida a respeito de imóveis. Está no lugar certo.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Vender</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Alugar</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Comprar</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Reformar</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Links úteis
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Precificação</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orçamento</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Outros</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ajuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="fas fa-home me-3"></i> Ceará, Fortaleza, BR</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            frontend.imoveis@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> (85) 3226-9456</p>
+          <p><i class="fas fa-print me-3"></i> (85) 998206468</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">FrontEnd.Imóveis</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  </main>
+</body>
+</html>
