@@ -3,12 +3,19 @@
     margin-bottom: 10px;
     
 }
-body{background-color: white
-   
-   
-
+body{
+    
+    background-color: white;
+    color: black;
+    
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+    
+}
+    
 #imagem{
     margin-left: 50px;
     margin-top: 50px;
